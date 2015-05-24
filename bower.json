@@ -1,0 +1,27 @@
+{
+  "name": "Ganglere",
+  "version": "0.0.0",
+  "homepage": "https://github.com/darkoverlordofdata/Ganglere",
+  "authors": [
+    "darkoverlordofdata <darkoverlordofdata@gmail.com>"
+  ],
+  "description": "The Deluding of Gylfe",
+  "main": "www/index.html",
+  "keywords": [
+    "rogue like"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "phaser": "~2.0.7",
+    "rot.js": "https://github.com/ondras/rot.js.git",
+    "fastclick": "~1.0.3"
+  }
+}

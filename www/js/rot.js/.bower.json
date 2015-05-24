@@ -1,0 +1,13 @@
+{
+  "name": "rot.js",
+  "homepage": "https://github.com/ondras/rot.js",
+  "_release": "5e9ce0b2c1",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "5e9ce0b2c13985792fd7817cec9b1be0814cbb47"
+  },
+  "_source": "https://github.com/ondras/rot.js.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/ondras/rot.js.git"
+}
