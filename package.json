@@ -1,6 +1,6 @@
 {
   "name": "Ganglere",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "The Deluding of Gylfe",
   "main": "index.js",
   "directories": {
@@ -20,10 +20,30 @@
   "author": "darkoverlordofdata",
   "license": "GPLv3",
   "bugs": {
-    "url": "https://github.com/darkoverlordofdata/Ganglere/issues"
+    "url": "https://github.com/darkoverlordofdata/ganglere/issues"
   },
-  "homepage": "https://github.com/darkoverlordofdata/Ganglere",
-  "dependencies": {
+  "homepage": "https://github.com/darkoverlordofdata/ganglere",
+  "devDependencies": {
+    "coffee-script": "~1.8.0",
+    "browserify": "~6.2.0",
+    "chai": "~1.9.2",
+    "mocha": "~2.0.1",
+    "grunt": "~0.4.5",
+    "grunt-adb-tools": "~0.1.0",
+    "grunt-bowercopy": "~1.1.0",
+    "grunt-browserify": "~3.1.0",
+    "grunt-contrib-clean": "~0.6.0",
+    "grunt-contrib-coffee": "~0.12.0",
+    "grunt-contrib-compress": "~0.12.0",
+    "grunt-contrib-concat": "~0.5.1",
+    "grunt-contrib-copy": "~0.7.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-uglify": "~0.6.0",
+    "grunt-shell": "~1.1.2",
+    "grunt-simple-mocha": "~0.4.0",
+    "load-grunt-tasks": "~3.1.0",
     "q": "^1.0.1"
+  },
+  "dependencies": {
   }
 }
