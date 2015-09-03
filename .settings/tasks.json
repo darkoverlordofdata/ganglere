@@ -1,0 +1,58 @@
+{
+    "version": "0.1.0",
+    "command": "npm",
+    "isShellCommand": true,
+    "args": ["run"],
+    "tasks": [
+        {
+            "taskName": "_vscode_build",
+            "args": [],
+            "isBuildCommand": true,
+            "problemMatcher": [
+                "$lessCompile",
+                "$tsc",
+                "$jshint"
+            ]
+        },{
+            "taskName": "version",
+            "args": [],
+            "isBuildCommand": false,
+            "problemMatcher": []
+        },{
+            "taskName": "build",
+            "args": [],
+            "isBuildCommand": false,
+            "problemMatcher": []
+        },{
+            "taskName": "get",
+            "args": [],
+            "isBuildCommand": false,
+            "problemMatcher": []
+        },{
+            "taskName": "publish",
+            "args": [],
+            "isBuildCommand": false,
+            "problemMatcher": []
+        },{
+            "taskName": "deploy",
+            "args": [],
+            "isBuildCommand": false,
+            "problemMatcher": []
+        },{
+            "taskName": "serve",
+            "args": [],
+            "isBuildCommand": false,
+            "problemMatcher": []
+        },{
+            "taskName": "test",
+            "args": [],
+            "isBuildCommand": false,
+            "problemMatcher": []
+        },{
+            "taskName": "make:build",
+            "args": [],
+            "isBuildCommand": false,
+            "problemMatcher": []
+        }
+    ]
+}

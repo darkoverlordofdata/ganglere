@@ -1,6 +1,13 @@
 ![Ganglere - The Deluding of Gylfe](https://raw.githubusercontent.com/darkoverlordofdata/Ganglere/master/www/assets/images/ganglere.png)
 ## Ganglere - The Deluding of Gylfe
 
+...In the beginning, before the heaven
+and the earth and the sea were created, the great abyss Ginungagap was
+without form and void, and the spirit of Fimbultyr moved upon the face
+of the deep, until the ice-cold rivers, the Elivogs, flowing from
+Niflheim, came in contact with the dazzling flames from Muspelheim. This
+was before Chaos...
+
 You are King Gylfe. 
 Disguised as the adventurer Ganglere, you sneak into the walled city of Troy, 
 fighting your way past Thor, Loke and Fenris to steal Odin's Treasure.

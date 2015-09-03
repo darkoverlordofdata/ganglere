@@ -26,7 +26,7 @@
   },
   "packages": {
     "phaser": "phaser/build/*.js",
-    "rot.js": "rot.js/rot.js",
+    "rot": "rot.js/rot.js",
     "fastclick": "fastclick/lib/fastclick.js"
 
   }
