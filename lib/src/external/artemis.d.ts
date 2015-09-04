@@ -1,3 +1,22 @@
+/**
+ * Cocos2d-js dev wrappers
+ * Use for intellisene and typechecking
+ */
+declare class CCNode extends cc.Node {
+    _super(): void;
+}
+declare class CCLayer extends cc.Layer {
+    _super(): void;
+}
+declare class CCLayerColor extends cc.LayerColor {
+    _super(color?: cc.Color, width?: number, height?: number): void;
+}
+declare class CCScene extends cc.Scene {
+    _super(): void;
+}
+declare class CCSprite extends cc.Sprite {
+    _super(fileName?: string, rect?: cc.Rect, rotated?: boolean): void;
+}
 declare module artemis.utils {
     /**
     * Collection type a bit like ArrayList but does not preserve the order of its
@@ -1338,7 +1357,7 @@ declare module artemis.systems {
         protected processEntities(entities: ImmutableBag<Entity>): void;
     }
 }
-declare module ganglere.core {
+declare module brokenspork.core {
     class Constants {
         static FRAME_WIDTH: number;
         static FRAME_HEIGHT: number;
@@ -1350,14 +1369,14 @@ declare module ganglere.core {
         };
     }
 }
-declare module ganglere.components {
+declare module brokenspork.components {
     import Component = artemis.Component;
     class Bounds extends Component {
         static className: string;
         radius: number;
     }
 }
-declare module ganglere.components {
+declare module brokenspork.components {
     import Component = artemis.Component;
     class ColorAnimation extends Component {
         static className: string;
@@ -1380,20 +1399,20 @@ declare module ganglere.components {
         repeat: boolean;
     }
 }
-declare module ganglere.components {
+declare module brokenspork.components {
     import Component = artemis.Component;
     class Enemy extends Component {
         static className: string;
     }
 }
-declare module ganglere.components {
+declare module brokenspork.components {
     import Component = artemis.Component;
     class Expires extends Component {
         static className: string;
         delay: number;
     }
 }
-declare module ganglere.components {
+declare module brokenspork.components {
     import Component = artemis.Component;
     class Health extends Component {
         static className: string;
@@ -1401,19 +1420,19 @@ declare module ganglere.components {
         maximumHealth: number;
     }
 }
-declare module ganglere.components {
+declare module brokenspork.components {
     import Component = artemis.Component;
     class ParallaxStar extends Component {
         static className: string;
     }
 }
-declare module ganglere.components {
+declare module brokenspork.components {
     import Component = artemis.Component;
     class Player extends Component {
         static className: string;
     }
 }
-declare module ganglere.components {
+declare module brokenspork.components {
     import Component = artemis.Component;
     class Position extends Component {
         static className: string;
@@ -1421,7 +1440,7 @@ declare module ganglere.components {
         y: number;
     }
 }
-declare module ganglere.components {
+declare module brokenspork.components {
     import Component = artemis.Component;
     class ScaleAnimation extends Component {
         static className: string;
@@ -1432,7 +1451,7 @@ declare module ganglere.components {
         active: boolean;
     }
 }
-declare module ganglere.components {
+declare module brokenspork.components {
     import Component = artemis.Component;
     enum EFFECT {
         PEW = 0,
@@ -1444,7 +1463,7 @@ declare module ganglere.components {
         effect: EFFECT;
     }
 }
-declare module ganglere.components {
+declare module brokenspork.components {
     import Component = artemis.Component;
     enum Layer {
         DEFAULT = 0,
@@ -1479,7 +1498,7 @@ declare module ganglere.components {
         removeFrom(layer: CCLayer): void;
     }
 }
-declare module ganglere.components {
+declare module brokenspork.components {
     import Component = artemis.Component;
     class Velocity extends Component {
         static className: string;
@@ -1487,8 +1506,8 @@ declare module ganglere.components {
         vectorY: number;
     }
 }
-declare module ganglere.core {
-    import Layer = ganglere.components.Layer;
+declare module brokenspork.core {
+    import Layer = brokenspork.components.Layer;
     import World = artemis.World;
     import Entity = artemis.Entity;
     class EntityFactory {
@@ -1502,12 +1521,12 @@ declare module ganglere.core {
         static createParticle(game: CCLayer, world: World, x: number, y: number): Entity;
     }
 }
-declare module ganglere.systems {
+declare module brokenspork.systems {
     import ImmutableBag = artemis.utils.ImmutableBag;
-    import Bounds = ganglere.components.Bounds;
-    import Expires = ganglere.components.Expires;
-    import Health = ganglere.components.Health;
-    import Position = ganglere.components.Position;
+    import Bounds = brokenspork.components.Bounds;
+    import Expires = brokenspork.components.Expires;
+    import Health = brokenspork.components.Health;
+    import Position = brokenspork.components.Position;
     import EntitySystem = artemis.EntitySystem;
     import ComponentMapper = artemis.ComponentMapper;
     import Entity = artemis.Entity;
@@ -1524,9 +1543,9 @@ declare module ganglere.systems {
         protected checkProcessing(): boolean;
     }
 }
-declare module ganglere.systems {
-    import ColorAnimation = ganglere.components.ColorAnimation;
-    import Sprite = ganglere.components.Sprite;
+declare module brokenspork.systems {
+    import ColorAnimation = brokenspork.components.ColorAnimation;
+    import Sprite = brokenspork.components.Sprite;
     import EntityProcessingSystem = artemis.systems.EntityProcessingSystem;
     import ComponentMapper = artemis.ComponentMapper;
     import Entity = artemis.Entity;
@@ -1537,7 +1556,7 @@ declare module ganglere.systems {
         protected processEach(e: Entity): void;
     }
 }
-declare module ganglere.systems {
+declare module brokenspork.systems {
     import VoidEntitySystem = artemis.systems.VoidEntitySystem;
     class EntitySpawningTimerSystem extends VoidEntitySystem {
         private game;
@@ -1548,8 +1567,8 @@ declare module ganglere.systems {
         protected processSystem(): void;
     }
 }
-declare module ganglere.systems {
-    import Expires = ganglere.components.Expires;
+declare module brokenspork.systems {
+    import Expires = brokenspork.components.Expires;
     import ComponentMapper = artemis.ComponentMapper;
     import Entity = artemis.Entity;
     import DelayedEntityProcessingSystem = artemis.systems.DelayedEntityProcessingSystem;
@@ -1561,9 +1580,9 @@ declare module ganglere.systems {
         protected getRemainingDelay(e: Entity): number;
     }
 }
-declare module ganglere.systems {
-    import Health = ganglere.components.Health;
-    import Position = ganglere.components.Position;
+declare module brokenspork.systems {
+    import Health = brokenspork.components.Health;
+    import Position = brokenspork.components.Position;
     import ComponentMapper = artemis.ComponentMapper;
     import Entity = artemis.Entity;
     import EntityProcessingSystem = artemis.systems.EntityProcessingSystem;
@@ -1578,9 +1597,9 @@ declare module ganglere.systems {
         processEach(e: Entity): void;
     }
 }
-declare module ganglere.systems {
-    import Position = ganglere.components.Position;
-    import Sprite = ganglere.components.Sprite;
+declare module brokenspork.systems {
+    import Position = brokenspork.components.Position;
+    import Sprite = brokenspork.components.Sprite;
     import ComponentMapper = artemis.ComponentMapper;
     import VoidEntitySystem = artemis.systems.VoidEntitySystem;
     class HudRenderSystem extends VoidEntitySystem {
@@ -1595,9 +1614,9 @@ declare module ganglere.systems {
         processSystem(): void;
     }
 }
-declare module ganglere.systems {
-    import Position = ganglere.components.Position;
-    import Velocity = ganglere.components.Velocity;
+declare module brokenspork.systems {
+    import Position = brokenspork.components.Position;
+    import Velocity = brokenspork.components.Velocity;
     import ComponentMapper = artemis.ComponentMapper;
     import Entity = artemis.Entity;
     import EntityProcessingSystem = artemis.systems.EntityProcessingSystem;
@@ -1608,8 +1627,8 @@ declare module ganglere.systems {
         processEach(e: Entity): void;
     }
 }
-declare module ganglere.systems {
-    import Position = ganglere.components.Position;
+declare module brokenspork.systems {
+    import Position = brokenspork.components.Position;
     import ComponentMapper = artemis.ComponentMapper;
     import Entity = artemis.Entity;
     import IntervalEntityProcessingSystem = artemis.systems.IntervalEntityProcessingSystem;
@@ -1619,9 +1638,9 @@ declare module ganglere.systems {
         processEach(e: Entity): void;
     }
 }
-declare module ganglere.systems {
-    import Position = ganglere.components.Position;
-    import Velocity = ganglere.components.Velocity;
+declare module brokenspork.systems {
+    import Position = brokenspork.components.Position;
+    import Velocity = brokenspork.components.Velocity;
     import ComponentMapper = artemis.ComponentMapper;
     import Entity = artemis.Entity;
     import EntityProcessingSystem = artemis.systems.EntityProcessingSystem;
@@ -1638,9 +1657,9 @@ declare module ganglere.systems {
         protected processEach(e: Entity): void;
     }
 }
-declare module ganglere.systems {
-    import Bounds = ganglere.components.Bounds;
-    import Position = ganglere.components.Position;
+declare module brokenspork.systems {
+    import Bounds = brokenspork.components.Bounds;
+    import Position = brokenspork.components.Position;
     import ComponentMapper = artemis.ComponentMapper;
     import Entity = artemis.Entity;
     import IntervalEntityProcessingSystem = artemis.systems.IntervalEntityProcessingSystem;
@@ -1651,9 +1670,9 @@ declare module ganglere.systems {
         processEach(e: Entity): void;
     }
 }
-declare module ganglere.systems {
-    import ScaleAnimation = ganglere.components.ScaleAnimation;
-    import Sprite = ganglere.components.Sprite;
+declare module brokenspork.systems {
+    import ScaleAnimation = brokenspork.components.ScaleAnimation;
+    import Sprite = brokenspork.components.Sprite;
     import ComponentMapper = artemis.ComponentMapper;
     import Entity = artemis.Entity;
     import EntityProcessingSystem = artemis.systems.EntityProcessingSystem;
@@ -1664,8 +1683,8 @@ declare module ganglere.systems {
         processEach(e: Entity): void;
     }
 }
-declare module ganglere.systems {
-    import SoundEffect = ganglere.components.SoundEffect;
+declare module brokenspork.systems {
+    import SoundEffect = brokenspork.components.SoundEffect;
     import ComponentMapper = artemis.ComponentMapper;
     import Entity = artemis.Entity;
     import EntityProcessingSystem = artemis.systems.EntityProcessingSystem;
@@ -1676,9 +1695,9 @@ declare module ganglere.systems {
         processEach(e: Entity): void;
     }
 }
-declare module ganglere.systems {
-    import Position = ganglere.components.Position;
-    import Sprite = ganglere.components.Sprite;
+declare module brokenspork.systems {
+    import Position = brokenspork.components.Position;
+    import Sprite = brokenspork.components.Sprite;
     import ComponentMapper = artemis.ComponentMapper;
     import Entity = artemis.Entity;
     import EntitySystem = artemis.EntitySystem;
@@ -1700,7 +1719,7 @@ declare module ganglere.systems {
         protected removed(e: Entity): void;
     }
 }
-declare module ganglere.core {
+declare module brokenspork.core {
     class GameScreen {
         game: CCLayer;
         private world;
@@ -1713,7 +1732,7 @@ declare module ganglere.core {
         render(delta: number): void;
     }
 }
-declare module ganglere.core {
+declare module brokenspork.core {
     class SpaceshipWarrior extends CCLayer {
         scene: any;
         gameScreen: GameScreen;

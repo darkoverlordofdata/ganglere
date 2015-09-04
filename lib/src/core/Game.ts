@@ -12,7 +12,7 @@ module ganglere.core {
 	// import RemoveOffscreenShipsSystem = ganglere.systems.RemoveOffscreenShipsSystem;
 	// import ScaleAnimationSystem = ganglere.systems.ScaleAnimationSystem;
 	// import SoundEffectSystem = ganglere.systems.SoundEffectSystem;
-	// import SpriteRenderSystem = ganglere.systems.SpriteRenderSystem;
+	import SpriteRenderSystem = ganglere.systems.SpriteRenderSystem;
 	import World = artemis.World;
 	// import GroupManager = artemis.managers.GroupManager;
 	// import Constants = ganglere.core.Constants;
@@ -21,7 +21,7 @@ module ganglere.core {
 	
 		private world:World;
 	
-		// private spriteRenderSystem:SpriteRenderSystem;
+		private spriteRenderSystem:SpriteRenderSystem;
 		// private healthRenderSystem:HealthRenderSystem;
 		// private hudRenderSystem:HudRenderSystem;
 		// //private batch:SpriteBatch;
@@ -46,7 +46,7 @@ module ganglere.core {
 			// this.world.setSystem(new ScaleAnimationSystem());
 			// this.world.setSystem(new RemoveOffscreenShipsSystem());
 	
-			// this.spriteRenderSystem = this.world.setSystem(new SpriteRenderSystem(game), true);
+			this.spriteRenderSystem = this.world.setSystem(new SpriteRenderSystem(game), true);
 			// this.healthRenderSystem = this.world.setSystem(new HealthRenderSystem(game), true);
 			// this.hudRenderSystem = this.world.setSystem(new HudRenderSystem(game), true);
 	
@@ -64,7 +64,7 @@ module ganglere.core {
 			this.world.setDelta(delta);
 			this.world.process();
 	
-			// this.spriteRenderSystem.process();
+			this.spriteRenderSystem.process();
 			// this.healthRenderSystem.process();
 			// this.hudRenderSystem.process();
 		}
