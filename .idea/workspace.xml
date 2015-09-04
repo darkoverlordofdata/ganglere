@@ -2,119 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d550014a-afda-4522-a37f-7d8eadb5df1c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Cakefile1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gruntfile1.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/boot.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/filelist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/prolog.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/src/ganglere/AI.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/src/ganglere/Actor.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/src/ganglere/Assets.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/src/ganglere/Config.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/src/ganglere/Credits.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/src/ganglere/Enemy.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/src/ganglere/GameOver.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/src/ganglere/Initialize.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/src/ganglere/Intro.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/src/ganglere/Levels.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/src/ganglere/Map.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/src/ganglere/Player.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/src/ganglere/Random.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/src/ganglere/Scores.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/src/ganglere/index.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/src/ganglere/map/fenris.tmx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/src/ganglere/map/loke.tmx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/src/ganglere/map/splash.tmx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/src/ganglere/map/thor.tmx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/src/index.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/ganglere/AI.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/ganglere/Actor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/ganglere/Assets.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/ganglere/Config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/ganglere/Credits.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/ganglere/Enemy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/ganglere/GameOver.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/ganglere/Initialize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/ganglere/Intro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/ganglere/Levels.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/ganglere/Map.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/ganglere/Player.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/ganglere/Random.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/ganglere/Scores.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/ganglere/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/audio/empty" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/fonts/empty" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/icons/empty" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/levels/fenris.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/levels/loke.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/levels/splash.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/levels/thor.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/Heroes/Fighter-F-01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/Heroes/Fighter-F-02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/Heroes/Fighter-M-01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/Heroes/Fighter-M-02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/Heroes/Healer-F-01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/Heroes/Healer-M-01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/Heroes/Mage-F-01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/Heroes/Mage-M-01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/Heroes/Ranger-F-01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/Heroes/Ranger-M-01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/Monsters/Flower-01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/Monsters/GrassSpirit-01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/Monsters/Mermaid_01.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/Monsters/Mushroom-01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/Monsters/Poprigunchik_01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/Monsters/Seed-01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/Monsters/Shrump-01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/NPC/Aristocrate-F-01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/NPC/Aristocrate-F-02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/NPC/Aristocrate-F-03.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/NPC/Bard-M-01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/NPC/Clown_01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/NPC/Cultist-01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/NPC/Dancer-F-01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/NPC/King_01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/NPC/Mask-M-01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/NPC/NPC_F-(Amanda).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/NPC/Pirate-F-01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/NPC/Prince-01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/NPC/Princess-01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/NPC/Snow-M-01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/NPC/Townfolk-Adult-F-001.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/NPC/Townfolk-Adult-F-002.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/NPC/Townfolk-Adult-F-003.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/NPC/Townfolk-Adult-F-004.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/NPC/Townfolk-Adult-F-005.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/NPC/Townfolk-Adult-F-006.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/NPC/Townfolk-Adult-M-001.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/NPC/Townfolk-Adult-M-002.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/NPC/Townfolk-Adult-M-003.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/NPC/Townfolk-Adult-M-004.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/NPC/Townfolk-Adult-M-005.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/NPC/Townfolk-Adult-M-006.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/NPC/Townfolk-Adult-M-007.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/NPC/Townfolk-Adult-M-008.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/NPC/Townfolk-Adult-M-009.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/NPC/Townfolk-Child-F-001.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/NPC/Townfolk-Child-F-002.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/NPC/Townfolk-Child-M-001.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/NPC/Townfolk-Child-M-002.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/NPC/Townfolk-Old-F-001.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/NPC/Townfolk-Old-M-001.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/NPC/Townfolk-Old-M-002.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/TEMPLATE (fat)_0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/sprites/TEMPLATE_0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/css/d16a.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/favicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/index.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cakefile" afterPath="$PROJECT_DIR$/Cakefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.scripts.coffee" afterPath="$PROJECT_DIR$/package.scripts.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tsconfig.json" afterPath="$PROJECT_DIR$/tsconfig.json" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/alienzone/cclib-dev.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/alienzone/cclib-dev.js.map" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/alienzone/components/Bounds.js" afterPath="$PROJECT_DIR$/web/src/ganglere/components/Bounds.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/alienzone/components/Bounds.js.map" afterPath="$PROJECT_DIR$/web/src/ganglere/components/Bounds.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/alienzone/components/ColorAnimation.js" afterPath="$PROJECT_DIR$/web/src/ganglere/components/ColorAnimation.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/alienzone/components/ColorAnimation.js.map" afterPath="$PROJECT_DIR$/web/src/ganglere/components/ColorAnimation.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/alienzone/components/Enemy.js" afterPath="$PROJECT_DIR$/web/src/ganglere/components/Enemy.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/alienzone/components/Enemy.js.map" afterPath="$PROJECT_DIR$/web/src/ganglere/components/Enemy.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/alienzone/components/Expires.js" afterPath="$PROJECT_DIR$/web/src/ganglere/components/Expires.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/alienzone/components/Expires.js.map" afterPath="$PROJECT_DIR$/web/src/ganglere/components/Expires.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/alienzone/components/Health.js" afterPath="$PROJECT_DIR$/web/src/ganglere/components/Health.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/alienzone/components/Health.js.map" afterPath="$PROJECT_DIR$/web/src/ganglere/components/Health.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/alienzone/components/ParallaxStar.js" afterPath="$PROJECT_DIR$/web/src/ganglere/components/ParallaxStar.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/alienzone/components/ParallaxStar.js.map" afterPath="$PROJECT_DIR$/web/src/ganglere/components/ParallaxStar.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/alienzone/components/Player.js" afterPath="$PROJECT_DIR$/web/src/ganglere/components/Player.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/alienzone/components/Player.js.map" afterPath="$PROJECT_DIR$/web/src/ganglere/components/Player.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/alienzone/components/Position.js" afterPath="$PROJECT_DIR$/web/src/ganglere/components/Position.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/alienzone/components/Position.js.map" afterPath="$PROJECT_DIR$/web/src/ganglere/components/Position.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/alienzone/components/ScaleAnimation.js" afterPath="$PROJECT_DIR$/web/src/ganglere/components/ScaleAnimation.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/alienzone/components/ScaleAnimation.js.map" afterPath="$PROJECT_DIR$/web/src/ganglere/components/ScaleAnimation.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/alienzone/components/SoundEffect.js" afterPath="$PROJECT_DIR$/web/src/ganglere/components/SoundEffect.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/alienzone/components/SoundEffect.js.map" afterPath="$PROJECT_DIR$/web/src/ganglere/components/SoundEffect.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/alienzone/components/Sprite.js" afterPath="$PROJECT_DIR$/web/src/ganglere/components/Sprite.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/alienzone/components/Sprite.js.map" afterPath="$PROJECT_DIR$/web/src/ganglere/components/Sprite.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/alienzone/components/Velocity.js" afterPath="$PROJECT_DIR$/web/src/ganglere/components/Velocity.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/alienzone/components/Velocity.js.map" afterPath="$PROJECT_DIR$/web/src/ganglere/components/Velocity.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/alienzone/core/Constants.js" afterPath="$PROJECT_DIR$/web/src/ganglere/core/Constants.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/alienzone/core/Constants.js.map" afterPath="$PROJECT_DIR$/web/src/ganglere/core/Constants.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/alienzone/core/EntityFactory.js" afterPath="$PROJECT_DIR$/web/src/ganglere/core/EntityFactory.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/alienzone/core/EntityFactory.js.map" afterPath="$PROJECT_DIR$/web/src/ganglere/core/EntityFactory.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/alienzone/core/Game.js" afterPath="$PROJECT_DIR$/web/src/ganglere/core/Game.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/alienzone/core/Game.js.map" afterPath="$PROJECT_DIR$/web/src/ganglere/core/Game.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/alienzone/core/Ganglere.js" afterPath="$PROJECT_DIR$/web/src/ganglere/core/Ganglere.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/alienzone/core/Ganglere.js.map" afterPath="$PROJECT_DIR$/web/src/ganglere/core/Ganglere.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/alienzone/systems/SpriteRenderSystem.js" afterPath="$PROJECT_DIR$/web/src/ganglere/systems/SpriteRenderSystem.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/alienzone/systems/SpriteRenderSystem.js.map" afterPath="$PROJECT_DIR$/web/src/ganglere/systems/SpriteRenderSystem.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/src/core/Game.ts" afterPath="$PROJECT_DIR$/lib/src/core/Game.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ganglere.iml" afterPath="$PROJECT_DIR$/.idea/ganglere.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ganglere.iws" />
@@ -136,21 +61,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Constants.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/src/core/Constants.ts">
+      <file leaf-file-name="Game.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/src/core/Game.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="15" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Bounds.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/src/components/Bounds.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.528">
+              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -173,6 +88,7 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/tsconfig.json" />
         <option value="$PROJECT_DIR$/lib/src/components/Bounds.ts" />
+        <option value="$PROJECT_DIR$/lib/src/core/Game.ts" />
       </list>
     </option>
   </component>
@@ -186,6 +102,7 @@
     </gulpfiles>
   </component>
   <component name="NamedScopeManager">
+    <scope name="src" pattern="file[ganglere]:lib//*" />
     <order />
   </component>
   <component name="ProjectFrameBounds">
@@ -215,6 +132,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -230,6 +148,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ganglere" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ganglere" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ganglere" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ganglere" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ganglere" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -290,13 +240,14 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Applications/TypeScript-1.5.3/bin" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -402,15 +353,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="742" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24944155" sideWeight="0.49333334" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32833335" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -461,6 +413,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lib/src/core/Constants.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="15" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/components/Bounds.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -476,7 +444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -484,7 +451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -492,9 +458,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1441324485590" expanded="true" signature="-1:-1" placeholder="[...]" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -518,13 +482,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/publish.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -569,13 +526,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/publish.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28723404">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.65384614">
@@ -607,21 +557,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1970803">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-          <folding>
-            <marker date="1441324485590" expanded="true" signature="-1:-1" placeholder="[...]" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.032846715">
           <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -632,7 +571,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -640,14 +578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4695652">
           <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/core/Constants.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="15" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -660,5 +590,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/core/Constants.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15706806">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12068965">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/ganglere/core/Ganglere.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0052356">
+          <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/ganglere/core/Game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.104712">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/core/Game.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.528">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <last-edited>src</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+          <order>
+            <scope name="src" />
+          </order>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

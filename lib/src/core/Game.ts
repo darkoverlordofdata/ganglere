@@ -1,5 +1,6 @@
 module ganglere.core {
-	
+
+
 	// import CollisionSystem = ganglere.systems.CollisionSystem;
 	// import ColorAnimationSystem = ganglere.systems.ColorAnimationSystem;
 	// import EntitySpawningTimerSystem = ganglere.systems.EntitySpawningTimerSystem;

@@ -3,6 +3,9 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/build" />
+      <excludeFolder url="file://$MODULE_DIR$/demos" />
+      <excludeFolder url="file://$MODULE_DIR$/mythopoeia" />
+      <excludeFolder url="file://$MODULE_DIR$/original" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
       <excludeFolder url="file://$MODULE_DIR$/web/frameworks/cocos2d-html5" />
       <excludeFolder url="file://$MODULE_DIR$/web/frameworks/cocos2d-x" />
