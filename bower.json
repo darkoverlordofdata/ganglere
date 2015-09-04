@@ -20,15 +20,23 @@
     "tests"
   ],
   "dependencies": {
-    "phaser": "~2.0.7",
-    "rot.js": "*",
-    "fastclick": "~1.0.3"
+    "artemists": "git://github.com/darkoverlordofdata/artemists",
+    "localstoragedb": "~2.3.1",
+    "rot.js": "~0.5.0"
   },
-  "packages": {
-    "phaser": "phaser/build/*.js",
-    "rot": "rot.js/rot.js",
-    "fastclick": "fastclick/lib/fastclick.js"
-
+  "devDependencies": {
+    "closure-compiler": "~0.2.7"
+  },
+  "install": {
+    "ignore": [
+      "closure-compiler",
+      "reflect-metadata"
+    ],
+    "path": "web/src",
+    "sources": {
+      "artemists": "packages/artemists/build/artemis.js",
+      "localstoragedb": "packages/localstoragedb/localstoragedb.js",
+      "rot.js": "packages/rot.js/rot.js"
+    }
   }
-
 }

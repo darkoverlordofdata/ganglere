@@ -22,7 +22,7 @@ BabelScript     = 4   # es6
 ClosureCompiler = 8   # plovr
 
 # paths:
-LIB_NAME        = "artemis"
+LIB_NAME        = "ganglere"
 PLOVR           = "tools/plovr.jar"
 COMPILER_JAR    = "packages/closure-compiler/lib/vendor/compiler.jar"
 LIB_ARTEMIS     = "packages/artemis/goog/lib"
@@ -42,7 +42,7 @@ module.exports = (project, options = {}) ->
 
   options.compile = 'ADVANCED_OPTIMIZATIONS'
   options.compile = 'SIMPLE_OPTIMIZATIONS'
-  #options.compile = 'WHITESPACE_ONLY'
+  options.compile = 'WHITESPACE_ONLY'
 
   # get project config
   csconfig = if fs.existsSync(CSCONFIG) then require(CSCONFIG) else files: []
