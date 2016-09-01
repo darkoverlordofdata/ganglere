@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "rootDir": "lib/js",
+        "outDir": "web/app"
+    },
+
+    "files": [
+        "lib/js/ganglere/AI.js",
+        "lib/js/ganglere/Actor.js",
+        "lib/js/ganglere/Assets.js",
+        "lib/js/ganglere/Config.js",
+        "lib/js/ganglere/Credits.js",
+        "lib/js/ganglere/Enemy.js",
+        "lib/js/ganglere/GameOver.js",
+        "lib/js/ganglere/Initialize.js",
+        "lib/js/ganglere/Intro.js",
+        "lib/js/ganglere/Levels.js",
+        "lib/js/ganglere/Map.js",
+        "lib/js/ganglere/Player.js",
+        "lib/js/ganglere/Random.js",
+        "lib/js/ganglere/Scores.js",
+        "lib/js/ganglere/index.js",
+        "lib/js/index.js"
+    ]
+	
+}
